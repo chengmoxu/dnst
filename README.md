@@ -5,7 +5,7 @@ Dorm Network Setting Tool for NCCU
 ### 一、 說明
 dnst是適用於政治大學宿舍網路之設定工具，旨在能夠在Windows系統下快速設定網卡固定IP、子網路遮罩、預設閘道，以及DNS。
 
-dnst使用Python編寫，並以pyinstaller編譯為執行檔。
+dnst使用Python編寫，並以pyinstaller編譯為執行檔。亦能透過Python執行Source code。
 
 ### 二、 適用平台
 * Windows 10
@@ -22,7 +22,9 @@ dnst使用Python編寫，並以pyinstaller編譯為執行檔。
 * Windows 11
 > 21H2
 >
-> 22H2 (最新版本)(已驗證)
+> 22H2 (已驗證)
+>
+> 23H2 (最新版本)
 
 * Windows Server 2019
 > 1809 (已驗證)
@@ -35,7 +37,7 @@ dnst使用Python編寫，並以pyinstaller編譯為執行檔。
 至電算中心註冊宿網，填入步驟一查到的卡號。
 
 ##### 步驟三
-以系統管理員權限執行dnst.exe，並依指示輸入學校分配之「註冊的IP」，並按下Enter鍵，再輸入剛剛步驟一查到的「連線名稱」，並按下Enter鍵，程式將自動設定完成。
+以系統管理員權限執行dnst.exe或是直接以Python執行dnst.py，並依指示輸入學校分配之「註冊的IP」，並按下Enter鍵，再輸入剛剛步驟一查到的「連線名稱」，並按下Enter鍵，程式將自動設定完成。
 
 其餘子網路遮罩、預設閘道，以及DNS將設定為以下預設值。
 
