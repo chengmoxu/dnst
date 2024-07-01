@@ -37,13 +37,11 @@ dnst使用Python編寫，並以pyinstaller編譯為執行檔。亦能透過Pytho
 至電算中心註冊宿網，填入步驟一查到的卡號。
 
 ##### 步驟三
-以系統管理員權限執行dnst.exe或是直接以Python執行dnst.py，並依指示輸入學校分配之「註冊的IP」，並按下Enter鍵，再輸入剛剛步驟一查到的「連線名稱」，並按下Enter鍵，程式將自動設定完成。
+以系統管理員權限執行dnst.exe或是直接以Python執行dnst.py，輸入剛剛步驟一查到的「連線名稱」，並按下Enter鍵，再依指示輸入學校分配之「註冊的IP」，並按下Enter鍵，再輸入系統顯示的預設閘道IP位置，程式將自動設定完成。
 
-其餘子網路遮罩、預設閘道，以及DNS將設定為以下預設值。
+其餘子網路遮罩以及DNS將設定為以下預設值。
 
 子網路遮罩: 255.255.255.0
-
-預設閘道: 140.119.194.254
 
 慣用DNS伺服器: 140.119.1.110
 
@@ -53,6 +51,5 @@ dnst使用Python編寫，並以pyinstaller編譯為執行檔。亦能透過Pytho
 學校系統將於整點進行更新，屆時將可使用宿舍網路。
 
 ### 四、 Future outlook
-* English version.
 * IP/ Mask/ Gateway/ DNS Server display.
 * Advance setting.
